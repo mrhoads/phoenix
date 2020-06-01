@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '19289394-0edf-4464-ba55-058c4235efaf'
-  imageRepository: 'mrhoadsphoenix'
+  imageRepository: 'mike-mrhoadsphoenix'
   containerRegistry: 'mcrphoenix.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/apps/aci-helloworld/Dockerfile'
   tag: '$(Build.BuildId)'
